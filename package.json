@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "In this Project Students will optimize and test a front-end web application called Study Night, a flashcard tool. Using the skills gained throughout this course, they will create tests to ensure product quality, install and configure necessary project dependencies, and optimize and automate the application tasks.",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha starter/test/shuffle.test.js",
     "format": "prettier . --write",
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "cypress": "gulp cypress",
+    "start": "parcel starter/index.html --open"
   },
   "repository": {
     "type": "git",

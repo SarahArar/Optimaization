@@ -16,10 +16,11 @@ const createElement = (elementType, text) => {
 };
 
 //Creates images with alt
-const createImage = (url, alt) => {
+const createImage = (url, alt) => {  
   let img = document.createElement('img');
+
   img.src = url;
-  img.alt == alt;
+  img.alt = alt;
   return img;
 };
 

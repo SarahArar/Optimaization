@@ -1,0 +1,40 @@
+{
+  "name": "optimaization-starter",
+  "version": "1.0.0",
+  "description": "In this Project Students will optimize and test a front-end web application called Study Night, a flashcard tool. Using the skills gained throughout this course, they will create tests to ensure product quality, install and configure necessary project dependencies, and optimize and automate the application tasks.",
+  "scripts": {
+    "test": "mocha",
+    "format": "prettier . --write",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udacity/nd0011-c4-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/udacity/nd0011-c4-starter/issues"
+  },
+  "homepage": "https://github.com/udacity/nd0011-c4-starter#readme",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "chai": "^5.2.1",
+    "eslint": "^9.31.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.3.0",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
+    "gulp-shell": "^0.8.0",
+    "mocha": "^11.7.1",
+    "parcel": "^2.15.4",
+    "prettier": "^3.6.2"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "printWidth": 100,
+    "tabWidth": 2
+  }
+}
